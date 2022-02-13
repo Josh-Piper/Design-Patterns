@@ -17,7 +17,9 @@ a bulk level.
 ### Singleton
 One instance of a class acting a global centralised store.
 ### Factory
-Create objects ...
+Create different types of objects from a single factory. Used for when classes can be classed together.
+
+For example, an animal factory might create a dog, or a cat via `animalFactory.create(ANIMAL.DOG)` or `animalFactory.create(ANIMAL.CAT)`
 
 ### Abstract Factory
 Produce a class without specifying its
